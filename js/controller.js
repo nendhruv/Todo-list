@@ -29,9 +29,7 @@ $scope.lists= list;
 
   	$scope.remove = function(index){
   		 var list = JSON.parse(localStorage.getItem("item"));
-  		 console.log(list);
   		 list.splice(index,1);
-  		 console.log(list);
   		 localStorage.setItem("item",JSON.stringify(list));
   		 $scope.lists= list;
 
