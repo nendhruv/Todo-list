@@ -1,0 +1,61 @@
+/******custom css **************/
+
+.list{
+	text-align: center;
+	margin-top: 10%;
+	padding: 0;
+	box-shadow: 4px 4px 10px #777;
+}
+
+.add-item{
+	background: #6f5499;
+	height: 45px;
+}
+
+.add-item input, .add-item button{
+	margin-top: 2%;
+}
+
+.list-item{
+	background: #efefef;
+	border-bottom: 1px #222 dashed;
+	height: 40px;
+	font-weight: bold;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.options, .items{
+	margin-top: 2%;
+}
+
+.options{
+	display: none;
+}
+
+.options span{
+	font-size: 1.2em;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.options span:hover{
+	cursor: pointer;
+
+}
+
+.list-item:hover .options{
+	display: block;
+}
+
+.remove{
+	color: red;
+}
+
+.edit{
+	color: green;
+}
+
+.save{
+	color: #6f5499
+}
